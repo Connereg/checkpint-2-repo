@@ -1,6 +1,6 @@
 module.exports = {
   src_folders : ["tests"],
-  page_objects_path : "page-objects",
+  page_objects_path : "pageObjects",
   webdriver : {
     start_process: true,
     server_path: require("chromedriver").path,
